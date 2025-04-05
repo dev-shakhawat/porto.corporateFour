@@ -12,7 +12,7 @@ import brand6 from "../../assets/logo-6.png"
 const Brands = () => {
     const brandSImages = [brand1 , brand2 , brand3 , brand4 , brand5 , brand6]
   return (
-    <div className=' py-[100px]  '>
+    <div className=' py-[70px]  '>
         <div className="container">
             <Marquee>
                 {brandSImages.map((item , index)=> <img key={index} src={item} alt={item} className=' opacity-25 hover:opacity-100 duration-[.4s]  '  />)}
